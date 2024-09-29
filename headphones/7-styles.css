@@ -245,7 +245,7 @@
     /* left: 20%; */
     transform: translate(-12%, -139%);
     font-weight: lighter;
-    overflow:visible;
+    overflow: visible;
 }
 
 .pentagon-text p {
@@ -408,17 +408,17 @@
         background: url(images/headphones_hero_2.jpg) no-repeat center center/cover;
         /* width: 80%; */
     }
-    
+
     .results-container {
         width: 80%;
         margin: 0 auto;
     }
-    
+
     .results-section h2 {
         font-size: 2rem;
         margin-bottom: 3rem;
     }
-    
+
     .results-section p {
         font-size: 1rem;
         margin: 0rem auto 1rem;
@@ -434,7 +434,7 @@
     .pentagon-home {
         flex: 1 1 calc(50% - 2rem);
     }
-    
+
     .pentagon-text {
         transform: translate(-10%, -128%);
         width: 150%;
@@ -446,7 +446,7 @@
 
     .footer-container {
         width: 80%;
-    }   
+    }
 }
 
 @media (max-width: 480px) {
@@ -612,29 +612,73 @@
 }
 
 @keyframes fadeIn {
-    0%   {width: 120%;}
-    25%  {width: 100%;}
-    50%  {width: 75%;}
-    100% {width: 50%;}
+    0% {
+        width: 120%;
+    }
+
+    25% {
+        width: 100%;
+    }
+
+    50% {
+        width: 75%;
+    }
+
+    100% {
+        width: 50%;
+    }
 }
 
 @keyframes fadeOut {
-    0%   {transform: scale(1);}
-    25%  {transform: scale(1.5);}
-    50%  {transform: scale(1.2);}
-    100% {transform: scale(1);}
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(1.5);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
 @keyframes rotate {
-    0%   {transform: rotate(0deg)}
-    25%  {transform: rotate(90deg);}
-    50%  {transform: rotate(180deg);}
-    100% {transform: rotate(0deg);}
+    0% {
+        transform: rotate(0deg)
+    }
+
+    25% {
+        transform: rotate(90deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
 }
 
 @keyframes opacity {
-    0%   {opacity: 0;}
-    25%  {opacity: 0.4;}
-    50%  {opacity: 0.8;}
-    100% {opacity: 1;}
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0.4;
+    }
+
+    50% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
